@@ -18,9 +18,12 @@
     "roots": [
       "<rootDir>"
     ],
+    "testMatch": [
+      "**/week*/**/*.test.js",
+      "**/**/*.test.js"
+    ],
     "modulePaths": [
-      "<rootDir>",
-      "isItInTheList"
+      "<rootDir>"
     ],
     "moduleDirectories": [
       "node_modules",
