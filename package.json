@@ -1,0 +1,30 @@
+{
+  "name": "ed_challenges_term3_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.2.2",
+    "prettier": "^2.7.1"
+  },
+  "jest": {
+    "rootDir": "./",
+    "roots": [
+      "<rootDir>"
+    ],
+    "modulePaths": [
+      "<rootDir>",
+      "isItInTheList"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "./isItInTheList/"
+    ]
+  }
+}
