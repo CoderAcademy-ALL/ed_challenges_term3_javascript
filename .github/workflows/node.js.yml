@@ -5,13 +5,12 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -49,8 +48,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
-      - name: Install dependencies
-        run: pnpm install
+      - name: Install dependencies [`pnpm i`]
+        run: pnpm i
 
-      - name: Runs testing
+      - name: Runs linting [`prettier --check .`]
+        run: pnpm prettier --check .
+
+      - name: Runs testing [`pnpm test`]
         run: pnpm test
