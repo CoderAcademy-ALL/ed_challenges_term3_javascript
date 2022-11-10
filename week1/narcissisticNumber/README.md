@@ -1,4 +1,4 @@
-# Narcissistic number
+# [Narcissistic number](https://edstem.org/au/courses/8571/challenges/70267)
 
 A Narcissistic Number is a number which is the sum of its own digits, each raised to the power of the number of digits in a given base. We will restrict ourselves to decimal (base 10).
 
