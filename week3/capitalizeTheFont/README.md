@@ -1,4 +1,4 @@
-# Capitalize The Font
+# [Capitalize The Font](https://edstem.org/au/courses/8571/challenges/70225)
 
 Create a function that takes a string as an argument. In this function, use your favourite loop to capitalise the first letter of each word, whilst making each other letter lowercase
 
