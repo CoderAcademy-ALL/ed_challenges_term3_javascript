@@ -1,4 +1,4 @@
-# Atomic Blonde
+# [Atomic Blonde](https://edstem.org/au/courses/8571/challenges/70229)
 
 A number is an `atomic blonde` if the `sum` and `product` of its digits are equal. Write a function to check if a number is an `atomic blonde` or not. For the context of this function assume you will only have numeric value inputs. You should however, handle both `Number` types and the case where a numeric `string` (eg `"123"`) is supplied. Do not handle a non-numeric string.
 
