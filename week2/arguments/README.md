@@ -1,4 +1,4 @@
-# Arguments
+# [Arguments](https://edstem.org/au/courses/8571/challenges/70227)
 
 Create a `function` that will take **any** number of `arguments`. Multiply all these `arguments` together, and return the result. If no arguments are entered, return 0.
 

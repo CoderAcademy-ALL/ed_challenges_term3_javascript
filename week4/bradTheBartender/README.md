@@ -1,4 +1,4 @@
-# Brad the Bartender
+# [Brad the Bartender](https://edstem.org/au/courses/8571/challenges/70232)
 
 Brad is a bartender at a fancy cocktail bar; he's a fantastic mixologist but not the best mathematician. Let's help him out and create a function that lets him know how many cocktails he can make with the ingredients on hand.
 

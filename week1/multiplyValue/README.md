@@ -1,4 +1,4 @@
-# Multiply Value
+# [Multiply Value](https://edstem.org/au/courses/8571/challenges/70269)
 
 Create a function which will take a string or number value and multiply it a specific number of times.
 

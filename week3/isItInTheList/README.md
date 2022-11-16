@@ -1,4 +1,4 @@
-# Is It In The List?
+# [Is It In The List?](https://edstem.org/au/courses/8571/challenges/70270)
 
 The function `checkList` is already defined and ready to be passed a callback.
 

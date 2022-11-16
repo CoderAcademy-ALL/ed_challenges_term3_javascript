@@ -1,4 +1,4 @@
-# Unique string
+# [Unique string](https://edstem.org/au/courses/8571/challenges/70230)
 
 Find the unique string in an `array`. A `unique string` contains characters that are not present in any other string in the array. Return the string that is unique.
 
