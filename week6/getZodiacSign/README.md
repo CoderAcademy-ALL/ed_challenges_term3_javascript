@@ -1,4 +1,4 @@
-# Get Zodiac Sign
+# [Get Zodiac Sign](https://edstem.org/au/courses/8571/challenges/70272)
 
 You may or may not care about astrology, but some people do a lot and there's a huge market for astrology apps.
 
