@@ -1,6 +1,6 @@
 # [Encrypt This!](https://www.codewars.com/kata/5848565e273af816fb000449)
 
-_Note_: I have not written this challenge. All simply copied from the [code wars kata](https://www.codewars.com/kata/5848565e273af816fb000449) for educational purposes. This challenge link aims to serve as a reference for students.
+> **Note**: I have not written this challenge. All simply copied from the [code wars kata](https://www.codewars.com/kata/5848565e273af816fb000449) for educational purposes. This challenge link aims to serve as a reference for students.
 
 ## Acknowledgments:
 
