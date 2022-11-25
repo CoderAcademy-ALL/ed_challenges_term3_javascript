@@ -23,4 +23,4 @@ function uniqueString(stringArray) {
 const filterUnique = (strArray) =>
   strArray.filter((str) => new Set(str.toLowerCase()).size === str.length);
 
-module.exports = { uniqueString };
+module.exports = { uniqueString, filterUnique };
