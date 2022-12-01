@@ -1,4 +1,4 @@
-const uniqueString = require("./uniqueString.js").uniqueString;
+const { uniqueString } = require("./uniqueString.js");
 
 describe("Unique string challenge", function () {
   it("Should return the unique string", function () {

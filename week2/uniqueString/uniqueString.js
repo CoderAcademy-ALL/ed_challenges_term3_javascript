@@ -22,6 +22,5 @@ function uniqueString(stringArray) {
 
 const filterUnique = (strArray) =>
   strArray.filter((str) => new Set(str.toLowerCase()).size === str.length);
-uniqueString(["alright", "isod", "Alright", "ALRIGHT"]);
-console.log(filterUnique(["alright", "isod", "Alright", "ALRIGHT"]));
-module.exports = { uniqueString };
+
+module.exports = { uniqueString, filterUnique };

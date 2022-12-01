@@ -1,6 +1,6 @@
 # [Take A Walk](https://www.codewars.com/kata/54da539698b8a2ad76000228)
 
-_Note_: This is not my problem. Simply copied from the `codewars` kata for educational purposes.
+> **Note**: I have not written this challenge. All simply copied from the [code wars kata](https://www.codewars.com/kata/54da539698b8a2ad76000228) for educational purposes. This challenge link aims to serve as a reference for students.
 
 You live in the city of Cartesia where all roads are laid out in a perfect grid.
 
