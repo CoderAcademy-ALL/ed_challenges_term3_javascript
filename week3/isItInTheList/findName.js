@@ -17,5 +17,5 @@ function findName(data, name) {
     `${name} ` + (matchingNames ? `is` : `is not`) + ` in the list`;
   return ansStr;
 }
-console.log(checkList("alex", findName));
+
 module.exports = { checkList, findName };
