@@ -1,1 +1,1 @@
-# Week 9 Code Wars Challenges.
+# Week 9 - Hackathon. No Challenges.
