@@ -16,7 +16,7 @@ const romanConversion = {
 
 const solution = (number) => {
   let resultStr = "";
-  for (const numeral of Object.keys(romanConversion)) {
+  for (const numeral in romanConversion) {
     const remainder = Math.floor(number / romanConversion[numeral]);
     number -= remainder * romanConversion[numeral];
     resultStr += numeral.repeat(remainder);
@@ -24,15 +24,16 @@ const solution = (number) => {
   return resultStr;
 };
 
+// second solution from CodeWars. Using while loop.
 const solution2 = (number) => {
-  let resultNumeral = "";
+  let resultStr = "";
   for (const numeral in romanConversion) {
     while (number >= romanConversion[numeral]) {
-      resultNumeral += numeral;
+      resultStr += numeral;
       number -= romanConversion[numeral];
     }
   }
-  return resultNumeral;
+  return resultStr;
 };
 
 module.exports = { solution, solution2 };
