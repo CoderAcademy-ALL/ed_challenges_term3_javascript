@@ -24,4 +24,15 @@ const solution = (number) => {
   return resultStr;
 };
 
-module.exports = { solution };
+const solution2 = (number) => {
+  let resultNumeral = "";
+  for (const numeral in romanConversion) {
+    while (number >= romanConversion[numeral]) {
+      resultNumeral += numeral;
+      number -= romanConversion[numeral];
+    }
+  }
+  return resultNumeral;
+};
+
+module.exports = { solution, solution2 };
