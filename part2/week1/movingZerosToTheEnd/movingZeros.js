@@ -3,4 +3,12 @@ const moveZeros = (arr) => {
   return noZerosArr.concat(new Array(arr.length - noZerosArr.length).fill(0));
 };
 
-module.exports = { moveZeros };
+const moveZerosBonus = (arrNum, isRight = true) => {
+  const noZerosArr = arrNum.filter((element, index) => element !== 0);
+  const zeroPadArr = new Array(arrNum.length - noZerosArr.length).fill(0);
+  return isRight
+    ? noZerosArr.concat(zeroPadArr)
+    : zeroPadArr.concat(noZerosArr);
+};
+
+module.exports = { moveZeros, moveZerosBonus };
