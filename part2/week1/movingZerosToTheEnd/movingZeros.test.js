@@ -1,4 +1,4 @@
-const { moveZeros } = require("./movingZeros.js");
+const { moveZeros, moveZerosBonus } = require("./movingZeros.js");
 
 const random = require("lodash/random");
 
@@ -142,5 +142,30 @@ describe("Tests", () => {
       let expected = a.filter((x) => x !== 0).concat(a.filter((x) => x === 0));
       expect(moveZeros(a)).toStrictEqual(expected);
     }
+  });
+});
+
+// Bonus tests
+describe("Bonus function tests", () => {
+  it("bonus tests", () => {
+    expect(
+      moveZerosBonus([12, 0, 10, 0, 8, 12, 7, 6, 0, 4, 10, 12, 0], true)
+    ).toStrictEqual([12, 10, 8, 12, 7, 6, 4, 10, 12, 0, 0, 0, 0]);
+    expect(
+      moveZerosBonus([12, 0, 10, 0, 8, 12, 7, 6, 0, 4, 10, 12, 0], false)
+    ).toStrictEqual([0, 0, 0, 0, 12, 10, 8, 12, 7, 6, 4, 10, 12]);
+    expect(
+      moveZerosBonus([12, 0, 10, 0, 8, 12, 7, 6, 0, 4, 10, 12, 0])
+    ).toStrictEqual([12, 10, 8, 12, 7, 6, 4, 10, 12, 0, 0, 0, 0]);
+
+    expect(moveZerosBonus([], true)).toStrictEqual([]);
+    expect(moveZerosBonus([], false)).toStrictEqual([]);
+    expect(moveZerosBonus([0, 0, 0], false)).toStrictEqual([0, 0, 0]);
+    expect(moveZerosBonus([0, 0, 0, 1], false)).toStrictEqual([0, 0, 0, 1]);
+    expect(moveZerosBonus([0, 0, 0, 1])).toStrictEqual([1, 0, 0, 0]);
+
+    expect(moveZerosBonus([0, 0, 0, 0, 0, 0, 1])).toStrictEqual([
+      1, 0, 0, 0, 0, 0, 0,
+    ]);
   });
 });
