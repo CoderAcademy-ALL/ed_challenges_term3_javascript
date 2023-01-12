@@ -7,4 +7,13 @@ const humanReadable = (seconds) => {
     : timeStr;
 };
 
-module.exports = { humanReadable };
+const padNum = (intNum) => (intNum < 10 ? "0" + intNum : intNum);
+
+const humanReadableMath = (seconds) =>
+  padNum(parseInt(seconds / (60 * 60))) +
+  ":" +
+  padNum(parseInt((seconds / 60) % 60)) +
+  ":" +
+  padNum(seconds % 60);
+
+module.exports = { humanReadable, humanReadableMath };
