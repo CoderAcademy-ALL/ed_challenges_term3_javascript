@@ -22,9 +22,6 @@ const digitsAreSequentialInc = (number) =>
 const digitsAreSequentialDec = (number) =>
   number.toString().length > 2 && "9876543210".indexOf(number) >= 0;
 
-const isPalendrome = (number) =>
-  number.toString().split("").reverse().join("") == number.toString();
-
 function isInteresting(number, awesomePhrases) {
   let interesting = 0;
 
