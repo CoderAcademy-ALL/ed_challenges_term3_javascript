@@ -6,8 +6,9 @@ Create your own mechanical dartboard that gives back your score based on the coo
 
 **Task:**
 
-- Use the <a href="https://en.wikipedia.org/wiki/Darts#Scoring">scoring rules</a> for a standard dartboard:<br>
-  <img style="height:264px" src="https://upload.wikimedia.org/wikipedia/commons/4/42/Dartboard.svg"></a>
+- Use the [scoring rules](https://en.wikipedia.org/wiki/Darts#Scoring) for a standard dartboard:
+
+<img style="height:264px" src="https://upload.wikimedia.org/wikipedia/commons/4/42/Dartboard.svg">
 
 - Finish method:
 
@@ -40,4 +41,4 @@ let score = getDartboardScore(-50, -30);
   - Double ring inner circle: `324 mm`
   - Double ring outer circle: `340 mm`
 
-<i>If you liked this kata, you can continue with: <a style="color:lightgreen" href="https://www.codewars.com/kata/lets-play-darts-beat-the-power">Let's Play Darts: Beat The Power!</a></i>
+_If you liked this kata, you can continue with: [Let's Play Darts: Beat the Power!](https://www.codewars.com/kata/lets-play-darts-beat-the-power)_
